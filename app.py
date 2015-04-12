@@ -3,11 +3,10 @@
 from flask import Flask
 app = Flask(__name__)
 
-@app.route('/instagram', methods=['GET','POST'])
+@app.route('/instagram')
 
 def accept_subscription():
-	if method == 'GET':
-		req = request.data 
+	req = request.data 
 
 	return req 
 
